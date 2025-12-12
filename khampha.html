@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám Phá Halloween</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: url('halloween-bg.jpg') center/cover fixed no-repeat;
+            color: #f5e7c6;
+            font-family: serif;
+        }
+        .overlay {
+            background-color:#510104;
+            padding: 50px 0;
+        }
+        .title {
+            font-size: 45px;
+            text-align: center;
+            margin-bottom: 40px;
+            text-shadow: 0 0 10px orange;
+        }
+        .card {
+            background-color: #1b1b1b;
+            color: #f5e7c6;
+            border: 2px solid orange;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .btn-orange {
+            background-color: orange;
+            color: black;
+        }
+        .btn-orange:hover {
+            background-color: #ffb84d;
+        }
+    </style>
+</head>
+
+<body>
+<div class="overlay">
+    <h1 class="title">Khám Phá Thế Giới Halloween</h1>
+
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- Khu vực ma quái -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/nhama.jpg" class="card-img">
+                    <div class="card-body">
+                        <h4>Ngôi Nhà Ma Ám</h4>
+                        <p>Khám phá căn nhà đầy bí ẩn với những linh hồn cổ xưa. Thích hợp với người thích phiêu lưu mạo hiểm.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bí ngô -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/vuongquocbingoi.jpg" class="card-img">
+                    <div class="card-body">
+                        <h4>Vương Quốc Bí Ngô</h4>
+                        <p>Học cách tạc bí ngô và tham gia cuộc thi bí ngô đẹp nhất. Gieo rắc nỗi sợ khi người khác nhìn thấy tác phẩm của bạn.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hóa trang -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/hoatrang.jpg" class="card-img">
+                    <div class="card-body">
+                        <h4>Lễ Hội Hóa Trang</h4>
+                        <p>Rất nhiều nhân vật kỳ bí đang chờ bạn hóa thân. Hãy chọn một nhân vật để hóa trang ngay thôi nào.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="index.html" class="btn btn-orange btn-lg">Quay về trang chủ</a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
